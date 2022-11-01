@@ -1,0 +1,29 @@
+public class 08-atividade-4 {
+
+    public static void main(String[] args) {
+        import java.util.Scanner;
+        
+        String nome;
+        int idade, soma = 0, i = 0;
+
+        System.out.println("Digite sua idade:");
+        idade = enterScanner.nextInt();
+        System.out.println("Digite sua idade:");
+        nome = enterScanner.nextInt();
+
+        for (i = 0; soma <= 100; i++) {
+            System.out.printf("Informe sua Idade", idade);
+
+            if (idade >= 18) {
+                soma += i;
+                System.out.printf("Nome participante", Nome);
+            }
+            else
+            System.out.printf("Menor de Idade", soma);
+    }
+
+        }
+
+        System.out.printf("cadastro não será permitido por ter excedido o limite de 100 participantes");
+    }
+
