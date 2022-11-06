@@ -5,9 +5,9 @@ for (let cont = 0; cont <= qtd; cont++) {
     if (cont == 0) {
         console.log (cont + " número correspondente ZERO")
     } 
-    if (cont % 2 == 0) {
+    else if (cont % 2 == 0) {
             console.log (cont + " número correspondente PAR")
     } 
-    if { console.log (cont + " número correspondente IMPAR")
+    else { console.log (cont + " número correspondente IMPAR")
     }
 }
