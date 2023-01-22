@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web:wght@700&display=swap');
+
+/* Comentario*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_grid{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#barras{
+    display: none;
+}
+.cabecalho{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: #1E1C21;
+    height: 100px;
+    padding-top: 20px;
+}
+
+/* Links fora do menu*/
+
+a{
+    color: chartreuse;
+}
+
+/* Links dentro do menu*/
+
+.icone-menu{
+    height: 40px;
+}
+
+.menu{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto";
+}
+.banner{
+    height: 607px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-f1{
+    background-image: url(../img/BANNER.png);
+}
+
+.banner-fifa{
+    background-image: url(../img/BANNER_FIFA.jpg);
+}
+
+.banner-vl{
+    background-image: url(../img/BANNER_VALORANT.png);
+}
+
+.conteudo-banner h1{
+    color: aliceblue;
+    font-family: "Titillium web";
+    font-size: 80px;
+
+}
+.conteudo-banner p{
+    color: aliceblue;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+.conteudo-banner a{
+    padding: 15px;
+    background-color: #C31616;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-size: 25px;
+    border-radius: 10px;
+}
+.conteudo-banner{
+    width: 494px;
+    height: 271.75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.posicionamento-banner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+
+}
+.jogos{
+    background-color: black;
+    height: 121px;
+   }
+   
+   .posicionamento-jogos{
+    height: 100%;
+   }
+
+   .container{
+    max-width: 1200px;
+   }
+
+   @media screen and (max-width: 1200px){
+    .container_grid{
+        width: 1000px;
+    }
+    
+   }
+
+   @media screen and (max-width: 1000px){
+    .container_grid{
+        width: 800px;
+    }
+
+    #barras{
+        display: inline-block;
+    }
+
+    .cabecalho{
+        position: relative;
+    }
+
+    
+    .menu{
+        position: absolute;
+        top: 91px;
+        right: 0px;
+        height: 300px;
+        
+        display: none;
+        background-color: #1E1C21;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .menu-ativo{
+        display: flex;
+    }
+
+    .menu a{
+        font-size: 20px;
+
+    }
+   }
